@@ -73,7 +73,7 @@ https://<your-username>.github.io/<your-game>/
 
 ### 6. Submit to the jam
 
-Open https://github.com/CallumHYoung/gamejam/blob/main/games.json, click the pencil icon (GitHub will auto-fork for you), and add your entry to the `games` array:
+Open https://github.com/CallumHYoung/gamejam/blob/main/jam1.json, click the pencil icon (GitHub will auto-fork for you), and add your entry to the `games` array:
 
 ```json
 {
@@ -141,7 +141,8 @@ Static hosting is compatible with realtime multiplayer through browser-to-servic
 Use whatever you want — Three.js, Phaser, Pixi, Babylon, PlayCanvas, raw canvas, raw WebGL, p5.js, HTML + CSS. The only constraints:
 
 - **Browser-only.** No backend. Static hosting must be enough.
-- **Portal protocol.** Drop in `portal.js` (or implement the handful of URL-param behaviors yourself — it's ~15 lines if you want to inline it).
+- **Join the network.** Drop in `portal.js` (or implement the handful of URL-param behaviors yourself — it's ~15 lines if you want to inline it). A game that doesn't portal isn't in the jam.
+- **Build in public.** Your game repo must be public from the first commit — watching each other's games take shape is half the fun.
 - **One entry point.** `index.html` at the root.
 
 Have fun.
